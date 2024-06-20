@@ -9,11 +9,38 @@ const projectsData = [
     id: 1,
     title: "ULEfy",
     description: "Spotify casero con canciones que escuchan los estudiantes de la Universidad de León.",
-    image: "/images/projects/1.png",
+    image: "/images/projects/UleFy.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/ULE-Informatica-2023-2024/aw-final-1c-g13",
     previewUrl: "/",
   },
+  {
+    id: 2,
+    title: "Cifrado vigenère",
+    description: "Código que implementa el cifrado y descifrado de vigenère de forma clásica y en flujo",
+    image: "/images/projects/vigenere.png",
+    tag: ["All", "Seguridad Informática"],
+    gitUrl: "https://github.com/LorenaAlbillos/Cifrado-Vigenere",
+    previewUrl: "/",
+  },
+  {
+    id: 3, 
+    title: "Cifrado por Bloques",
+    description: "Código que implementa el cifrado y descifrado de Hill y Afín.",
+    image: "/images/projects/bloques.png",
+    tag: ["All", "Seguridad Informática"],
+    gitUrl: "https://github.com/escorpivo/Cifrado-por-Bloques",
+    previewUrl: "/",
+  },
+  {
+    id: 4,
+    title: "Simulación de Hamming", 
+    description: "Código que implementa la codificación y decodificación en un canal con ruido",
+    image: "/images/projects/hamming.png",
+    tag: ["All", "Seguridad Informática"],
+    gitUrl: "https://github.com/escorpivo/Simulacion-Hamming",
+    previewUrl: "/",
+  }
 ];
 
 const ProjectsSection = () => {
@@ -49,6 +76,11 @@ const ProjectsSection = () => {
           onClick={handleTagChange}
           name="Web"
           isSelected={tag === "Web"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Seguridad Informática"
+          isSelected={tag === "SI"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
