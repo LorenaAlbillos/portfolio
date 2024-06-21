@@ -2,6 +2,7 @@
 import React, { useTransition, useState } from "react";
 import Image from "next/image";
 import TabButton from "./TabButton";
+import Link from "next/link";
 
 const TAB_DATA = [
   {
@@ -34,6 +35,25 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Cisco Certified CyberOps Associate</li>
+        <Link
+          href="/Certificado.pdf"
+          className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
+          target="_blank" //recargar otra página
+        >
+          <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+            Descargar certificado
+          </span>
+        </Link>
+        <div></div>
+        <Link
+          href="/Certificado2.pdf"
+          className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
+          target="_blank" //recargar otra página
+        >
+          <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+            Descargar actividades realizadas en el curso
+          </span>
+        </Link>
         <li>Ciberseguridad desde una mirada multidisciplinar</li>
       </ul>
     ),
