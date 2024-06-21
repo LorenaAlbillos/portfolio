@@ -8,7 +8,7 @@ const projectsData = [
   {
     id: 1,
     title: "ULEfy",
-    description: "Spotify casero con canciones que escuchan los estudiantes de la Universidad de León.",
+    description: "Proyecto de aplicación web sobre el almacenamiento y reproducción de canciones",
     image: "/images/projects/UleFy.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/ULE-Informatica-2023-2024/aw-final-1c-g13",
