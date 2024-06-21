@@ -53,7 +53,7 @@ const HeroSection = () => {
               <Image src={LinkedinIcon} alt="Linkedin Icon" />
             </Link>
             <Link
-              href="/CV-Lorena-Albillos.pdf"
+              href="/CV_Lorena_Albillos.pdf"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
               target="_blank" //recargar otra página
             >
