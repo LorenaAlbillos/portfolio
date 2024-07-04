@@ -36,7 +36,7 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>Cisco Certified CyberOps Associate</li>
         <Link
-          href="/Certificado.pdf"
+          href="/certificado.pdf"
           className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
           target="_blank" //recargar otra página
         >
@@ -46,7 +46,7 @@ const TAB_DATA = [
         </Link>
         <div></div>
         <Link
-          href="/Certificado2.pdf"
+          href="/certificado2.pdf"
           className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
           target="_blank" //recargar otra página
         >
@@ -75,7 +75,7 @@ const AboutSection = () => {
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image src="/images/about-image.png" width={500} height={500} className="rounded-3xl"/>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
+          <h2 className="text-4xl font-bold text-white mb-4">Sobre mi</h2>
           <p className="text-base lg:text-lg">
           Como estudiante de Ingeniería Informática en la Universidad de León, 
           me identifico como una persona creativa y resolutiva con una profunda 
