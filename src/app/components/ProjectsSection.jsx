@@ -40,6 +40,15 @@ const projectsData = [
     tag: ["All", "Seguridad Informática"],
     gitUrl: "https://github.com/escorpivo/Simulacion-Hamming",
     previewUrl: "/",
+  },
+  {
+    id: 5,
+    title: "Wordle",
+    description: "Código que implementa el juego wordle sobre la terminal",
+    image: "/images/projects/wordle.png",
+    tag: ["All", "Programación I"],
+    gitUrl: "https://github.com/ULE-Informatica-2022-2023/wordle-grupo-1e",
+    previewUrl: "/",
   }
 ];
 
@@ -81,6 +90,11 @@ const ProjectsSection = () => {
           onClick={handleTagChange}
           name="Seguridad Informática"
           isSelected={tag === "SI"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Programación I"
+          isSelected={tag === "Programación I"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
