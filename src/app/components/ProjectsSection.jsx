@@ -17,7 +17,7 @@ const projectsData = [
   {
     id: 2,
     title: "Cifrado vigenère",
-    description: "Código que implementa el cifrado y descifrado de vigenère de forma clásica y en flujo",
+    description: "Proyecto que implementa el cifrado y descifrado de vigenère de forma clásica y en flujo",
     image: "/images/projects/vigenere.png",
     tag: ["All", "Seguridad Informática"],
     gitUrl: "https://github.com/LorenaAlbillos/Cifrado-Vigenere",
@@ -26,7 +26,7 @@ const projectsData = [
   {
     id: 3, 
     title: "Cifrado por Bloques",
-    description: "Código que implementa el cifrado y descifrado de Hill y Afín.",
+    description: "Proyecto que implementa el cifrado y descifrado de Hill y Afín.",
     image: "/images/projects/bloques.png",
     tag: ["All", "Seguridad Informática"],
     gitUrl: "https://github.com/escorpivo/Cifrado-por-Bloques",
@@ -35,7 +35,7 @@ const projectsData = [
   {
     id: 4,
     title: "Simulación de Hamming", 
-    description: "Código que implementa la codificación y decodificación en un canal con ruido",
+    description: "Proyecto que implementa la codificación y decodificación en un canal con ruido",
     image: "/images/projects/hamming.png",
     tag: ["All", "Seguridad Informática"],
     gitUrl: "https://github.com/escorpivo/Simulacion-Hamming",
@@ -44,7 +44,7 @@ const projectsData = [
   {
     id: 5,
     title: "Wordle",
-    description: "Código que implementa el juego wordle sobre la terminal",
+    description: "Proyecto que implementa el juego wordle sobre la terminal",
     image: "/images/projects/wordle.png",
     tag: ["All", "Programación I"],
     gitUrl: "https://github.com/ULE-Informatica-2022-2023/wordle-grupo-1e",
